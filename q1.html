@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-gap: 20px;
+        }
+        .head{
+            background-color: aqua;
+            
+            justify-content: center;
+            text-align: center;
+            font-size: large;
+            text-decoration: solid;
+            
+        }
+        .item{
+            padding: 20px;
+        }
+        @media only screen and (max-width:600px){
+            .head{
+                background-color: blue;
+            }
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class=" item head">Responsive Header</div>
+        <div class=" item content">Main Content</div>
+        <div class="item foot">Footer</div>
+    </div>
+    
+</body>
+</html>
